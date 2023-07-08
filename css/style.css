@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Open sans', sans-serif;
+}
+
 
 
 
@@ -26,7 +30,6 @@
 
 .nav-logo a {
     color: #181818;
-    font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     font-weight: 600;
     text-decoration: none;
@@ -44,27 +47,83 @@
 
 .nav-menu li {
     list-style: none;
-    color: #474747 ;
-    font-family: 'Open Sans', sans-serif;
+    color: #474747;
 }
 
-.nav-menu li a{
+.nav-menu li a {
     text-decoration: none;
-    color: #474747 ;
+    color: #474747;
     font-size: 16px;
 }
 
-.nav-menu #menu-hire-btn{
-    background:#FD6E0A;
+.nav-menu #menu-hire-btn ,.primary-btn{
+    background: #FD6E0A;
     color: #fff;
     padding: 12px 24px;
     font-size: 16px;
-    border:0;
+    border: 0;
     border-radius: 5px;
     cursor: pointer;
 }
 
 /* banner section */
-#banner{
-    
+#banner {
+    display: flex;
+    justify-content: space-between;
+    height: 89vh;
+    gap: 40px;
+    align-items: center;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-right: -120px;
+}
+
+.banner-content{
+    width: 35%;
+}
+
+.banner-content h2 {
+    color: #474747;
+    font-size: 35px;
+}
+
+.banner-content h1 {
+    color: #181818;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.banner-content p {
+    color: #757575;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.cv-btn{
+    margin-right: 20px;
+    border:1px solid #FD6E0A;
+    padding: 12px 24px;
+    background:transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: .2s;
+}
+
+.cv-btn:hover{
+    background:#FD6E0A;
+    color:#fff;
+}
+
+.banner-profile {
+    width:50%;
+}
+
+.banner-profile img{
+    width: 400px;
+    bottom:0;
+    position: absolute;
+    bottom: 0 ;
 }
