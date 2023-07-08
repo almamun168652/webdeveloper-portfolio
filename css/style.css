@@ -1,1 +1,70 @@
 /* font-family: 'Open Sans', sans-serif */
+
+/* common css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* header css */
+
+
+#header {
+    padding-left: 250px;
+    background: #FFF8F3;
+    height: 100vh;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+.nav-logo a {
+    color: #181818;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav-logo a span {
+    color: #FD6E0A;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-menu li {
+    list-style: none;
+    color: #474747 ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    color: #474747 ;
+    font-size: 16px;
+}
+
+.nav-menu #menu-hire-btn{
+    background:#FD6E0A;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 16px;
+    border:0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* banner section */
+#banner{
+    
+}
