@@ -279,4 +279,61 @@ body {
 
 #footer{
     background-color: #FFF8F3;
+    padding: 100px;
+    margin-top: 80px;
+    display: flex;
+    gap: 80px;
+    justify-content: space-around;
+}
+
+.foot-col{
+    width: 35%;
+}
+
+.foot-col h1{
+    color:181818;
+    font-size: 22px;
+}
+
+.foot-col p{
+    color: #474747;
+    font-size: 13px;
+    margin: 5px 0;
+
+}
+
+.social-icon-foot{
+    margin-top: 15px;
+    overflow: hidden;
+    display: flex;
+    gap:20px;
+}
+
+.social-icon-foot li{
+    list-style: none;
+}
+
+#form{
+    margin-top: 20px;
+}
+
+.foot-col input,
+.foot-col textarea{
+    width: 80%;
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    color:#474747;
+}
+
+.foot-col input{
+    margin-bottom: 20px;
+}
+
+.foot-col textarea{
+    height: 100px;
+}
+
+.foot-submit-btn{
+    margin-top: 20px;
 }
