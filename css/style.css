@@ -24,6 +24,7 @@ body {
     background-size: 80px, 80px;
     background-position: 5%, 50%;
     height: 100vh;
+    overflow: hidden;
 }
 
 #navbar {
@@ -142,7 +143,7 @@ body {
 /* about style */
 
 #about {
-    margin: 80px 0;
+    margin-top: 90px;
     padding: 50px 130px;
     background: #FFF8F3;
     text-align: center;
@@ -168,3 +169,21 @@ body {
 
 .about-info-item p{color: #474747;}
 .about-info-item h4{color:#181818;}
+
+
+
+/* i do section */
+
+
+#i-do{
+    margin-top: 40px;
+    text-align: center;
+    padding: 50px 130px;
+}
+
+
+.i-do-desc{
+    margin-top: 20px;
+    color: #757575;
+    font-size: 16px;
+}
