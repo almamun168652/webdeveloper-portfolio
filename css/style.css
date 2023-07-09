@@ -161,29 +161,67 @@ body {
     font-size: 18px;
 }
 
-.about-info-wrapper{
+.about-info-wrapper {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
 
-.about-info-item p{color: #474747;}
-.about-info-item h4{color:#181818;}
+.about-info-item p {
+    color: #474747;
+}
+
+.about-info-item h4 {
+    color: #181818;
+}
 
 
 
 /* i do section */
 
 
-#i-do{
+#i-do {
     margin-top: 40px;
     text-align: center;
     padding: 50px 130px;
 }
 
 
-.i-do-desc{
+.i-do-desc {
     margin-top: 20px;
     color: #757575;
     font-size: 16px;
 }
+
+#skills {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.skills-item {
+    padding: 25px;
+    /* box-shadow: 0px 0px 10px rgb(186, 186, 186); */
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.11);
+}
+
+.skills-item img{
+    width: 35px;
+    margin-bottom: 8px;
+}
+
+.skills-item h3{
+    margin-bottom: 5px;
+}
+
+.skills-item p{
+    color: #757575;
+    font-size: 16px;
+}
+
+
+
+
+/* summary section */
