@@ -225,3 +225,58 @@ body {
 
 
 /* summary section */
+
+#summary{
+    margin-top: 80px;
+}
+
+#summary .sec-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.summary-col-wrapper{
+    display: flex;
+    gap: 100px;
+}
+
+.summary-col-title{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color:#474747;
+}
+
+.summary-item{
+    margin: 12px 0;
+}
+
+.summary-item h3{
+    color: #474747;
+    font-size:16px;
+}
+
+.summary-item span{
+    color:#757575;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.summary-item p{
+    color: #757575;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.skills-cv{
+    display:block;
+    margin:0 auto;
+    margin-top: 15px;
+}
+
+
+/* footer */
+
+#footer{
+    background-color: #FFF8F3;
+}
